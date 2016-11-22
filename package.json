@@ -1,0 +1,37 @@
+{
+  "name": "react-app-cli",
+  "version": "1.0.0",
+  "description": "react app command line tool",
+  "main": "index.js",
+  "bin": {
+    "react-app-cli": "./react-app-cli.js"
+  },
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xialeistudio/react-app-cli.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "xialeistudio <xialeistudio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xialeistudio/react-app-cli/issues"
+  },
+  "homepage": "https://github.com/xialeistudio/react-app-cli#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "commander": "^2.9.0",
+    "inquirer": "^1.2.3",
+    "mkdirp": "^0.5.1",
+    "shelljs": "^0.7.5"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  }
+}
